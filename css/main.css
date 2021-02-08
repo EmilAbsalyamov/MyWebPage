@@ -42,5 +42,38 @@ html, body {
 .wrapper {
    min-height: 100%;
    overflow: hidden;
-   padding: 50px;
+   margin: 0;
+}
+.content {
+   max-width: 1200px;
+   padding: 0px 15px;
+   margin: 0px auto;
+}
+.header {
+   background-color: cornsilk;
+}
+ul {
+   display: flex;
+   justify-content: space-around;
+}
+#nav__logo {
+   font-size: 1.2em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: absolute;
+   left: 50%;
+   right: 50%;
+}
+.welcome {
+   padding-top: 15px;
+}
+.welcome__row {
+   display: flex;
+   justify-content: space-between;
+}
+h1 {
+   font-size: 3em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.welcome__text {
+   width: 55%;
 }
