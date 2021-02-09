@@ -103,7 +103,7 @@ html, body {
 
 }
 .first_image {
-   height: 900px;
+   height: 400px;
 }
 .aboutMe__text {
    text-align: center;
@@ -129,7 +129,22 @@ html, body {
 
 }
 .skills__row {
-
+   display: flex;
+   flex-wrap: wrap;
+   flex: 0 auto;
+}
+.skills__column {
+   display: flex;
+   width: 33%;
+}
+.skills__item {
+   display: flex;
+   border: 5px solid black;
+   margin: 5px;
+}
+.skills__item img {
+   width: 150px;
+   height: 150px;
 }
 .projects {
 
