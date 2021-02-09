@@ -119,32 +119,39 @@ html, body {
    font-size: 1em;
    border: 1px solid black;
    color: blanchedalmond;
-}
-.aboutMe h2 {
+} 
+h2 {
    text-align: center;
    font-family: 'Josefin Slab', serif;
    font-size: 2em;
 }
 .skills {
-
+   border: 4px solid cornsilk;
 }
 .skills__row {
+   margin-top: 25px;
    display: flex;
    flex-wrap: wrap;
-   flex: 0 auto;
+   justify-content: center;
 }
 .skills__column {
    display: flex;
    width: 33%;
+
 }
 .skills__item {
    display: flex;
+   justify-self: stretch;
    border: 5px solid black;
    margin: 5px;
+   padding: 8px;
 }
 .skills__item img {
-   width: 150px;
-   height: 150px;
+   width: 120px;
+   height: 120px;
+}
+.item__description {
+   margin-left: 5px;
 }
 .projects {
 
