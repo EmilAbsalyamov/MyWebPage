@@ -66,10 +66,20 @@ html, body {
    transition: .3s linear;
    display: flex;
    justify-content: space-around;
+   background-color: cornsilk;
+}
+.menu-main li:not-last-child {
+   border-right: 2px solid white;
+}
+.menu-main li {
+   border: 2px solid white;
+   border-radius: 10px;
+   background-color: white;
 }
 #nav__logo {
    font-size: 1.2em;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: cornsilk;
 }
 .welcome {
    padding-top: 4%;
@@ -126,6 +136,7 @@ h2 {
    font-size: 2em;
 }
 .skills {
+   margin-top: 3px;
    border: 4px solid cornsilk;
 }
 .skills__row {
@@ -154,11 +165,34 @@ h2 {
    margin-left: 5px;
 }
 .projects {
-
+   margin-top: 5px;
+   border: 4px solid cornsilk;
+}
+.projects p {
+   font-size: 1.5em;
+   text-align: center;
+   margin: 10px 0px;
+}
+.projects__row {
+   padding: 35px 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 .footer {
 
 }
-.contacts {
+.contacts__row ul {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   background-color: cornsilk;
+}
+.contacts__row ul li {
+   margin: 0px 10px;
+}
 
+.contacts p {
+   font-size: 1em;
+   text-align: center;
 }
