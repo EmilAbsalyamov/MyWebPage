@@ -1,0 +1,23 @@
+{
+  "name": "mywebpage",
+  "version": "1.0.0",
+  "description": "My portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilAbsalyamov/MyWebPage.git"
+  },
+  "author": "Emil Absalyamov <absalyamov.work@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilAbsalyamov/MyWebPage/issues"
+  },
+  "homepage": "https://github.com/EmilAbsalyamov/MyWebPage#readme",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
