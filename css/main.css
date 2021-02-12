@@ -113,10 +113,6 @@ html, body {
    display: flex;
    justify-content: space-around;  
 }
-.aboutMe__images {
-
-
-}
 .first_image {
    height: 400px;
 }

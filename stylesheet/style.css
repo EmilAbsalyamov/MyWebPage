@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,536;1,700&family=Spectral+SC:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral+SC:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html, body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.wrapper .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1680px;
+  padding: 0px 5.5%;
+  margin: 0px auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+  font-size: 2em;
+}
+
+.header {
+  background-color: cornsil;
+}
+.header .menu-main {
+  line-height: 150%;
+  padding: 1.2%;
+  font-size: 1.3em;
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s linear;
+  display: flex;
+  justify-content: space-around;
+  background-color: cornsilk;
+}
+.header .menu-main li:not-last-child {
+  border-right: 2px solid white;
+}
+.header .menu-main li {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+.header #nav__logo {
+  font-size: 1.2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: cornsilk;
+}
+
+.welcome {
+  padding-top: 4%;
+  border: 4px solid cornsilk;
+}
+.welcome__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome__text {
+  text-align: center;
+  width: 75%;
+}
+.welcome__text h1 {
+  font-size: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1%;
+  font-family: "Spectral SC", serif;
+}
+
+.aboutMe {
+  margin-top: 3px;
+  border: 4px solid cornsilk;
+}
+.aboutMe__row {
+  display: flex;
+  justify-content: space-around;
+}
+.aboutMe__row .first_image {
+  height: 400px;
+}
+
+.aboutMe__text {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 1em;
+}
+.aboutMe__text p {
+  margin-bottom: 8px;
+}
+.aboutMe__text input {
+  background-color: darkred;
+  font-size: 1em;
+  border: 1px solid black;
+  color: blanchedalmond;
+}
+
+.skills {
+  margin-top: 3px;
+  border: 4px solid cornsilk;
+}
+.skills__row {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills__row .skills__column {
+  display: flex;
+  width: 33%;
+}
+
+.skills__item {
+  display: flex;
+  justify-self: stretch;
+  flex: 1 1 auto;
+  border: 5px solid black;
+  margin: 5px;
+  padding: 8px;
+}
+.skills__item img {
+  width: 120px;
+  height: 120px;
+}
+.skills__item .item__description {
+  margin-left: 5px;
+}
+
+.projects {
+  margin-top: 5px;
+  border: 4px solid cornsilk;
+}
+.projects p {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px 0px;
+}
+.projects__row {
+  padding: 35px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: pink;
+}
+
+.contacts p {
+  font-size: 1em;
+  text-align: center;
+}
+.contacts__row ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.contacts__row ul li {
+  margin: 0px 10px;
+}
