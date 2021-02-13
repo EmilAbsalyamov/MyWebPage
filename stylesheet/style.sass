@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital@1&display=swap')
 @import url('https://fonts.googleapis.com/css?family=Arimo')
 
+     
+
 html, body 
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
 
@@ -17,6 +19,22 @@ html, body
       max-width: 1680px
       padding: 0px 5.5%
       margin: 0px auto
+
+@media screen and (max-width:1200px)
+   .container
+      max-width: 970px
+
+@media screen and (max-width:992px)
+   .container
+      max-width: 750px
+      
+@media screen and (max-width:768px)
+   .container
+      max-width: 600px
+
+@media screen and (max-width:576px)
+   .container
+      max-width: 450px
 
 h2 
    text-align: center
@@ -35,21 +53,19 @@ h2
       transition: .3s linear
       display: flex
       justify-content: space-around
-      background-color: cornsilk
-      li:not-last-child 
-         border-right: 2px solid white
+      background-color: pink
       li 
-         border: 2px solid white
-         border-radius: 10px
+         border-radius: 20%
          background-color: white
+         padding: 0.3%
    #nav__logo 
       font-size: 1.2em
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-      background-color: cornsilk
+      background-color: pink
 
 .welcome 
    padding-top: 4%
-   border: 4px solid cornsilk
+   border: 5px solid pink
    &__row 
       display: flex
       justify-content: space-between
@@ -64,20 +80,18 @@ h2
          font-family: 'Spectral SC', serif
 
 .aboutMe 
-   margin-top: 3px
-   border: 4px solid cornsilk
+   margin-top: 0.4%
+   border: 5px solid pink
    &__row 
       display: flex
       justify-content: space-around
-      .first_image 
-         height: 400px
 
 .aboutMe__text 
    text-align: center
-   margin-top: 80px
+   margin-top: 10%
    font-size: 1em
    p 
-      margin-bottom: 8px
+      line-height: 130%
    input 
       background-color: darkred
       font-size: 1em
@@ -85,10 +99,11 @@ h2
       color: blanchedalmond  
 
 .skills 
-   margin-top: 3px
-   border: 4px solid cornsilk
+   padding: 1%
+   margin-top: 0.4%
+   border: 5px solid pink
    &__row 
-      margin-top: 25px
+      margin-top: 3%
       display: flex
       flex-wrap: wrap
       justify-content: center
@@ -101,21 +116,21 @@ h2
    justify-self: stretch
    flex: 1 1 auto
    border: 5px solid black
-   margin: 5px
-   padding: 8px
+   margin: 2%
+   padding: 2%
    img 
-      width: 120px
-      height: 120px
+      width: 33%
+      height: 90%
    .item__description 
-      margin-left: 5px
+      margin-left: 2%
 
 .projects 
-   margin-top: 5px
-   border: 4px solid cornsilk
+   margin-top: 0.4%
+   border: 5px solid pink
    p 
       font-size: 1.5em
       text-align: center
-      margin: 10px 0px
+      margin-top: 0.4%
    &__row 
       padding: 35px 10px
       display: flex
@@ -133,9 +148,9 @@ h2
       ul 
          display: flex
          justify-content: center
-         padding: 10px  
+         padding-top: 1%  
          li 
-            margin: 0px 10px
+            margin: 1%
 
 
 
