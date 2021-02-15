@@ -80,7 +80,7 @@ html, body {
   display: flex;
   flex-direction: column;
   max-width: 1680px;
-  padding: 0px 5.5%;
+  padding: 0px 2.5%;
   margin: 0px auto;
 }
 
@@ -93,12 +93,18 @@ html, body {
   .container {
     max-width: 970px;
   }
+  .container .welcome #AUR {
+    display: none;
+  }
 }
 @media screen and (max-width: 992px) {
   .container {
     max-width: 750px;
   }
   .container nav {
+    display: none;
+  }
+  .container .welcome p {
     display: none;
   }
 }
@@ -124,7 +130,7 @@ h2 {
   padding-top: 3%;
   text-align: center;
   font-family: "Josefin Slab", serif;
-  font-size: 2em;
+  font-size: 350%;
 }
 
 .header {
@@ -280,20 +286,37 @@ h2 {
 }
 
 .welcome {
-  padding-top: 4%;
+  padding-top: 3%;
   border: 5px solid pink;
 }
 .welcome__row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
+  flex: 0 1 auto;
+  width: 100%;
+}
+.welcome__image {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  width: 20%;
+  z-index: index 2;
 }
 .welcome__text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
   text-align: center;
-  width: 75%;
+  width: 80%;
+  max-width: 100%;
+  font-size: 200%;
+  z-index: index 1;
 }
 .welcome__text h1 {
-  font-size: 3em;
+  font-size: 300%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 1%;
   font-family: "Spectral SC", serif;
